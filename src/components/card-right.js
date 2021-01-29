@@ -14,7 +14,7 @@ const CardRight = ({ app }) => (
       <a className="btn" href={app.link} target="_blank" rel="noreferrer noopener">Get App</a>
       <button type="button" className="ml-10 btn btn-twitter" onClick={(() => { tweet(app.tweet)})}>
         <span className="icon icon-inline icon-twitter-light"></span>
-        Share on Twitter
+        Twitter
       </button>
     </div>
   </div>

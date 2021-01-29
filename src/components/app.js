@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { fetchAppsIfNeeded } from '../redux/actions'
-
 import Card from './card'
 class App extends Component {
 
